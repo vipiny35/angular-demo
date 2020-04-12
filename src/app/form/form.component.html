@@ -1,0 +1,23 @@
+<div class="form">
+  <form [formGroup]="myForm" (ngSubmit)="onSubmit(myForm)">
+
+    <div class="field">
+      <label for="name">Enter name</label>
+      <input formControlName="name" type="text" id="#name">
+    </div>
+
+    <div class="field">
+      <label for="email">Your email</label>
+      <input formControlName="email" type="text" id="#email">
+    </div>
+
+    <div class="field">
+      <label for="message">Enter a message</label>
+      <input formControlName="message" type="text" id="#message">
+    </div>
+
+    <div class="field">
+      <button type="submit">Submit</button>
+    </div>
+  </form>
+</div>

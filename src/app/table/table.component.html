@@ -1,0 +1,18 @@
+<div class="form-table" *ngIf="loaded">
+  <table>
+    <tr>
+      <th>Sr.</th>
+      <th>Name</th>
+      <th>Message</th>
+      <th>Email</th>
+    </tr>
+    <tr *ngFor="let form of forms; index as i">
+      <td>{{i+1}}</td>
+      <td>{{form.name}}</td>
+      <td>{{form.email}}</td>
+      <td>{{form.message}}</td>
+      <td class="action-buttons" (click)="edit(form)">✏</td>
+      <td class="action-buttons" (click)="delete(form._id)">❌</td>
+    </tr>
+  </table>
+</div>

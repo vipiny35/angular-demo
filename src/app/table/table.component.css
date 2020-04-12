@@ -1,0 +1,18 @@
+.form-table {
+  display: flex;
+  border: 1px solid #eee;
+  min-height: 300px;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+.form-table .delete {
+  background-color: red;
+  color: #fff;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.action-buttons {
+  cursor: pointer;
+}

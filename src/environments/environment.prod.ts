@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  apiUrl: "https://www.webtiara.com/ng-demo/api/",
 };
