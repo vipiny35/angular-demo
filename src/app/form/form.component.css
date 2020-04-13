@@ -1,13 +1,5 @@
 .form {
   display: flex;
-  border: 1px solid #eee;
-  min-height: 300px;
-  flex-grow: 1;
-  flex-direction: column;
-}
-
-.form {
-  display: flex;
   flex-direction: column;
 }
 

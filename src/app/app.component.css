@@ -47,6 +47,19 @@ p {
   margin: 82px auto 32px;
   padding: 0 16px;
   max-width: 960px;
-  /* flex-direction: row;
-  align-items: center; */
+  flex-direction: row;
+}
+
+app-table,
+app-form {
+  display: flex;
+  border: 1px solid #eee;
+  min-height: 300px;
+  flex-grow: 1;
+}
+
+@media only screen and (max-width: 600px) {
+  .content {
+    flex-direction: column;
+  }
 }
